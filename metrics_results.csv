@@ -1,0 +1,8 @@
+,r2,mae,rmse
+Lasso Regression,0.8164,837281.76,1634876.23
+Ridge Regression,0.8466,841965.5,1494572.63
+Bayesian Regression,0.8406,839973.16,1523260.93
+Gradient Descent Regression,0.8418,937556.04,1517555.73
+Decision Trees Regression,0.9015,556737.37,1197303.05
+Random Forest Regression,0.9264,538757.23,1035353.97
+AdaBoost Decision Trees Regression,0.8044,1019975.61,1687579.05

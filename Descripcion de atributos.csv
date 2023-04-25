@@ -1,0 +1,52 @@
+# Atributo,Dataset,Atributo,Descipcion,Asociado a otro set?,Tipo,Rango
+1,advertisements,ad_id,Identificador de anuncio,NO,int,
+2,advertisements,region_id,Tipos de regiones,region,int-categorico,1 al 21
+3,advertisements,ad_price,Precio de venta del vehiculo,NO,int,0 a 59990000
+4,advertisements,numpictures,Cantidad de fotos publicadas,NO,int,0 al 12
+5,advertisements,proseller,Vendedor destacado,NO,booleano,0 al 1
+6,advertisements,adoldness,Antiguedad del anuncio,NO,int,
+7,advertisements,postalcode,Codigo postal,NO,int,
+8,advertisements,production,Ano de fabricacion del vehiculo,NO,date,1900 al 2020
+9,advertisements,mileage,Millaje del vehiculo,NO,int,0 a 4580000
+10,advertisements,clime_id,Tipo de climatizacion AC,clime,int-categorico,1 al 6
+11,advertisements,gas_id,Tipo de combustible,gas,int-categorico,1 al 16
+12,advertisements,shifter,Especificacion marchas caja transmision,NO,str-categorico,
+13,advertisements,person_capacity,Cantidad de personas a transportar,NO,int,0 a 17
+14,advertisements,doorsnumber,Cantidad de puertas,NO,int,0 a 5
+15,advertisements,documentvalid,Desconocido,NO,date,
+16,advertisements,color,Color del vehiculo,NO,int,0 a 210
+17,advertisements,brand_id,Marca del vehiculo,brand,int-categorico,1 a 102
+18,advertisements,model_id,Modelo del vehiculo,model,int-categorico,1 a 1279
+19,advertisements,ccm,Tamano del motor (cm cubicos),NO,int,0 a 7538
+20,advertisements,highlighted,Anuncio destacado,NO,booleano,0 al 1
+21,advertisements,upload_date,Fecha de publicacion,NO,date,2007 al 2020
+22,advertisements,description,Descipcion,NO,str,
+23,advertisements,advertisement_url,URL del anuncio,NO,str,
+24,advertisements,catalog_url,URL del catalogo,catalog,str,
+25,advertisements,sales_date,Fecha de venta,NO,date,
+26,advertisements,is_sold,Si ya se vendio,NO,booleano,
+27,advertisements,download_date,Fecha de descarga,NO,date,
+28,advertisements,sales_update_date,Fecha de venta actualizada,NO,date,
+29,catalogs,category_id,Categoria o segmento del vehiculo,category,int-categorico,
+30,catalogs,start_production,Fecha inicio de produccion,NO,date,
+31,catalogs,end_production,Fecha final de produccion,NO,date,
+32,catalogs,msrp,Precio de venta sugerido por fabricante,NO,int,435k a 64M
+33,catalogs,car_type_id,Tipo de vehiculo.,car_type,int-categorico,
+34,catalogs,doorsnumber,Cantidad de puertas,NO,int,2 a 5
+35,catalogs,person_capacity,Cantidad de personas a transportar,NO,int,2 a 5599000
+36,catalogs,weight,Peso del vehiculo en kg,NO,int,540 a 2909
+37,catalogs,fuel_tank,Tamano del tanque en litros,NO,int,9 a 219
+38,catalogs,boot_capacity,Desconocido,NO,int,24-9890000
+39,catalogs,fuel,Tipo de combustible,NO,str-categorico,
+40,catalogs,environmental_id,Tipo de combustible categoria EURO,NO,int-categorico,
+41,catalogs,cylinder_layout,Diseno de la cilindrada,NO,str-categorico,
+42,catalogs,cylinders,Cantidad de cilindros,NO,int,2 a 12
+43,catalogs,drive_id,Tipo de traccion ruedas,NO,int-categorico,1 a 4
+44,catalogs,ccm,Tamano del motor (cm cubicos),NO,int,599 a 6412
+45,catalogs,consump_city,Consumo combustible promedio ciudad,NO,float,0.9 a 29.9
+46,catalogs,consump_highway,Consumo combustible promedio autopista,NO,float,1.3 a 13.7
+47,catalogs,consump_mixed,Consumo combustible promedio ambos,NO,float,0.6 a 19.5
+48,catalogs,top_speed,Maxima velocidad posible,NO,int,115 a 318
+49,catalogs,acceleration,Acelaracion alcanzada,NO,float,2.7 a 30.5
+50,catalogs,torque,Torque disponible,NO,int,32 a 999
+51,catalogs,power,Potencia del vehiculo,NO,int,29 a 690
